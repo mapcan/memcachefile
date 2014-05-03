@@ -8,5 +8,5 @@ Usage
 ```
 ./configure --enable-threads
 make
-./memcachefile -t 8
+./memcachefile -t 8     /* running with 8 workers in 8 different threads */
 ```
